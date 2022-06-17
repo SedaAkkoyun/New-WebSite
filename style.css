@@ -1,0 +1,117 @@
+/*************************** General ****************************/
+
+* {box-sizing: border-box;margin: 0;padding: 0;}
+*::-webkit-scrollbar{width:8px ;}
+*::-webkit-scrollbar-track{background-color: #ccc;}
+*::-webkit-scrollbar-thumb{background-color: var(--color);border-radius: 5px;}
+:root{--color: #5c9ef5; }
+html{scroll-behavior: smooth;}
+body{font-family: sans-serif;}
+h1{font-size: 24px;}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #777;
+}
+img{
+    max-width: 100%;
+    margin: 30px 0;
+}
+li{
+    list-style-type: none;
+}
+form{
+    max-width: 100%;
+    margin: 30px 0;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 2px solid var(--color);
+    box-shadow: none;
+    border-radius: 5px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid var(--color);
+}
+
+/*************************** General  class****************************/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.text-left{text-align: left !important; 
+/* bu kodu başka kodun ezmesine izin verme !important */
+}
+.text-right{text-align: right !important; }
+.circle{
+    display:inline-block ;
+    background-color: var(--color);
+    width: 10px;
+    height:10px;
+    margin: 15px 0;
+    border-radius: 50%;
+}
+line{
+    line-height: 8px;
+}
+.line-1, .line-2, .line-3{
+display: inline-block;
+background-color: var(--color);
+
+}
+.line-1{
+   
+  width: 15px;  height: 15px;  border-radius: 50%;
+    
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    color: #777 
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    color: #777 
+}
+.btn{
+  padding: 10px 18px;
+  margin: 15px 0;
+outline: none;
+cursor: pointer;  
+border: 2px solid var(--color);
+border-radius: 5px;
+background-color: white;
+font-weight:bold ;
+transition: background 0.5s;
+}
+.btn:hover{
+    background-color: var(--color);
+ 
+}
+
+
+/*************************** Header ****************************/
+#header{
+    height: 80vh;
+    background: url("img/background.png") center right/contain no-repeat ;
+
+}
+.logo{
+    width: 200px;
+    margin-top: 40px;
+}
+.header-content{
+    max-width: 400px;
+ 
+}
