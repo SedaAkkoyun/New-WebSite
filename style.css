@@ -115,3 +115,36 @@ transition: background 0.5s;
     max-width: 400px;
  
 }
+#sideNav{
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    /* right: 0; */
+    right: -250px;
+    top:0;
+    background-color: var(--color);
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#sideNav ul li{
+    margin: 30px;
+}
+#sideNav ul li:first-child{
+    margin-top: 45px;
+}
+#sideNav ul li a{
+    color: #fff;
+}
+#menu-icon{
+    background-color: var(--color);
+    width: 50px;
+    position: fixed;
+    /* margin: 15px; */
+    right: 40px;
+    top: 35px;
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+
+}
